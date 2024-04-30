@@ -15,6 +15,11 @@ app.use("/student", userRouter)
 app.use(express.urlencoded({ extended: true, limit:"50mb" }));
 // app.use("/about", userRouter)
 
+app.get('/', (req, res) => {
+   res.send('Welcome');
+   console.log("Welcome");
+})
+
 
 
 app.listen(port, ()=>{
