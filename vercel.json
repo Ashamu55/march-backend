@@ -1,5 +1,5 @@
 {
-    "vrsion" : 2,
+    "version" : 2,
     "buids": [
         {
             "src" : "index.js",
