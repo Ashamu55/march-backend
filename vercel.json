@@ -1,0 +1,16 @@
+{
+    "vrsion" : 2,
+    "buids": [
+        {
+            "src" : "index.js",
+            "use" : "vercel/node"
+        }
+    ],
+    "routes" : [
+        {
+            "scr" : "/(.*)",
+            "dest" : "/index.js"
+        }
+    ]
+
+}
