@@ -5,7 +5,7 @@ const app = express();
 const cors = require('cors')
 const userRouter = require("./Routes/User.Route")
 const mongoose = require('mongoose');
-let uri = "mongodb+srv://timex2024:ifeoluwaoluwatimileyin2018@cluster0.x5uz6mh.mongodb.net/march_db?retryWrites=true&w=majority&appName=Cluster0"
+let uri = process.env.URL
 // const userModel = require("./Models/user.model")
 
 
